@@ -22,11 +22,10 @@ doc/libraries/*.html
 doc/libraries/*.json
 doc/userguide/RobotFrameworkUserGuide.html
 src/robotframework.egg-info
-log.html
-output.xml
-report.html
 __pycache__
 .classpath
 .settings
 .jython_cache
 .mypy_cache/
+backup
+logs

@@ -1,16 +1,18 @@
 ***Settings***
 
 Library     AppiumLibrary
+Resource    helpers.robot
 
-**Test Cases***
-Deve abrir a tela principal
+***Keywords***
+Open Session
+    Set Appium Timeout  5
     Open Application    http://localhost:4723/wd/hub
     ...                 automationName=UiAutomator2
     ...                 platformName=Android
     ...                 deviceName=EmulatorPixel4
     ...                 app=${EXECDIR}/app/twp.apk
     ...                 udid=emulator-5554
+    Get Started
 
-    Wait Until Page Contains    Training Wheels Protocol    5 
-    Wait Until Page Contains    Mobile Version  5
+Close Session
     Close Application
