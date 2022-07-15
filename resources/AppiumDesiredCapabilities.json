@@ -1,0 +1,7 @@
+{
+    "appium:automationName": "UiAutomator2",
+    "platformName": "Android",
+    "appium:deviceName": "EmulatorPixel2",
+    "appium:app": "C:\\Appium\\AndroidAppiumRobot\\app\\twp.apk",
+    "appium:udid": "emulator-5554"
+}

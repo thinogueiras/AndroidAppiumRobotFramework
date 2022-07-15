@@ -15,3 +15,50 @@ Open Nav
     Wait Until Element Is Visible   ${MENU_PRINCIPAL}
     Click Element                   ${MENU_PRINCIPAL}
     Wait Until Element Is Visible   ${NAV_VIEW}
+
+Go To Login Form
+    Open Nav
+    Click Text                  FORMS
+    Wait Until Page Contains    FORMS    
+    Click Text                  LOGIN
+    Wait Until Page Contains    Fala QA, vamos testar o login?
+
+Go To Radio Buttons
+    Open Nav
+    Click Text                  INPUTS
+    Wait Until Page Contains    INPUTS
+    Click Text                  BOTÕES DE RADIO
+    Wait Until Page Contains    Botões de Radio
+
+Go To Check Boxes
+    Open Nav
+    Click Text                  INPUTS
+    Wait Until Page Contains    INPUTS
+    Click Text                  CHECKBOX
+    Wait Until Page Contains    Checkbox
+
+Go To Short Click
+    Open Nav
+    Click Text                  BOTÕES
+    Wait Until Page Contains    CLIQUE SIMPLES
+    Click Text                  CLIQUE SIMPLES
+    Wait Until Page Contains    Botão clique simples
+
+Go To Long Click
+    Open Nav
+    Click Text                  BOTÕES
+    Wait Until Page Contains    CLIQUE LONGO
+    Click Text                  CLIQUE LONGO
+    Wait Until Page Contains    Botão clique longo
+
+Go To SingUp Form
+    Open Nav
+    Click Text                  FORMS
+    Wait Until Page Contains    FORMS    
+    Click Text                  CADASTRO
+    Wait Until Page Contains    Bem-vindo, crie sua conta.
+
+Go To Avenger List
+    Wait Until Page Contains            AVENGERS    
+    Click Text                          LISTA
+    Wait Until Page Contains            LISTA

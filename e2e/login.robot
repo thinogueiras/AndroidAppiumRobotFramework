@@ -7,13 +7,7 @@ Test Teardown   Close Session
 
 ***Test Cases***
 Deve realizar o login com sucesso
-    Open Nav
-
-    Click Text                  FORMS
-    Wait Until Page Contains    FORMS
-
-    Click Text                  LOGIN
-    Wait Until Page Contains    Fala QA, vamos testar o login?
+    Go To Login Form
 
     Input Text      id=io.qaninja.android.twp:id/etEmail        eu@papito.io
     Input Text      id=io.qaninja.android.twp:id/etPassword     qaninja
